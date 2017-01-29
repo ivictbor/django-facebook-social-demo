@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Django Social Auth demo</title>
+</head>
+<body>
+You logged in as: {{ request.user }}
+<br>
+<a href="{% url "social:begin" "facebook" %}?next={{ request.path }}">Auth via Facebook</a>
+<br>
+<a href="{% url "logout" %}?next=/" >Logout</a>
+</body>
+</html>
