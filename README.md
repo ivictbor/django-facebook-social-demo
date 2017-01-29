@@ -1,4 +1,4 @@
-Example supports Django 1.10.
+Example supports `Django 1.10`.
 
 ```
 pip install social-auth-app-django
@@ -11,9 +11,9 @@ SOCIAL_AUTH_FACEBOOK_KEY = 'REPLACE WITH YOUR APP ID'
 SOCIAL_AUTH_FACEBOOK_SECRET = 'REPLACE WITH YOUR APP SETTING'
 ```
 
-For details how to get them see For details how to configure OAuth See https://maketips.net/tip/129/django-social-auth-demo 
+For details how to get them see and configure Facebook app See https://maketips.net/tip/129/django-social-auth-demo 
 
-Run example on `djsoc.local` domain
+Run example on `djsoc.local` domain:
 
 ```
 echo "127.0.0.1 djsoc.local" >> /etc/hosts
